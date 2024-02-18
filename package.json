@@ -11,7 +11,8 @@
     "preview": "nuxi preview",
     "lint": "eslint .",
     "prepublishOnly": "pnpm lint",
-    "release": "release-it"
+    "release": "release-it",
+    "deploy": "gh-pages -d dist"
   },
   "files": [
     "app/",
@@ -44,6 +45,7 @@
     "@tailwindcss/typography": "^0.5.9",
     "@types/rellax": "^1.7.4",
     "eslint": "^8.35.0",
+    "gh-pages": "^6.1.1",
     "nuxt": "^3.2.2",
     "nuxt-icon": "^0.3.2",
     "release-it": "^15.6.0",
