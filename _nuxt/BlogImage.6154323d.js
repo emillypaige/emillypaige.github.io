@@ -1,0 +1,1 @@
+import{_ as a}from"./nuxt-img.121a91f9.js";import{a as l,o,c,f as n}from"./entry.46a4423d.js";const _=l({__name:"BlogImage",props:{src:null,alt:null},setup(e){return(s,r)=>{const t=a;return e.src?(o(),c(t,{key:0,placeholder:"",sizes:"sm:100vw md:70vw",class:"w-full",src:e.src,alt:e.alt,loading:"lazy"},null,8,["src","alt"])):n("",!0)}}});export{_ as default};
